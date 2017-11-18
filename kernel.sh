@@ -15,6 +15,6 @@ echo -e ${CL_RED}"Fusebox kernel initiating${CL_RED}";
 
 cd ~/fusebox/
 make clean && make mrproper
-export CROSS_COMPILE=/home/dfuse/ndk/toolchains/arm-eabi-5.3/bin/arm-eabi-
+export CROSS_COMPILE=~/ndk/toolchains/arm-eabi-5.3/bin/arm-eabi-
 make fusebox_defconfig ARCH=arm
 make -j8 ARCH=arm
