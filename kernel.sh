@@ -18,5 +18,3 @@ make clean && make mrproper
 export CROSS_COMPILE=/home/dfuse/ndk/toolchains/arm-eabi-5.3/bin/arm-eabi-
 make fusebox_defconfig ARCH=arm
 make -j8 ARCH=arm
-
-done
