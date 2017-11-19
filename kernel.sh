@@ -33,6 +33,8 @@ cp ~/fusebox/drivers/spi/spidev.ko ~/lazy/lazy/modules/
 cp ~/fusebox/drivers/usb/gadget/legacy/g_laf.ko ~/lazy/lazy/modules/
 cp ~/fusebox/drivers/video/backlight/backlight.ko ~/lazy/lazy/modules/
 cp ~/fusebox/drivers/video/backlight/lcd.ko ~/lazy/lazy/modules/
+cp ~/fusebox/drivers/video/backlight/generic_bl.ko ~/lazy/lazy/modules/
+cp ~/fusebox/drivers/usb/gadget/udc/dummy_hcd.ko ~/lazy/lazy/modules/
 cp ~/fusebox/arch/arm/boot/zImage-dtb ~/lazy/lazy/
 
 echo "Make this zip, BITCH!"
@@ -44,4 +46,4 @@ cd ~/
 echo "Done mother fucker!" 
 sleep 5
 
-exit 
+#exit 
