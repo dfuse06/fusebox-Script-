@@ -7,6 +7,6 @@ like this
 
 git clone https://github.com/dfuse06/fusebox_lv517.git fusebox
 
-make should you have the Anroid NDK in your home folder, renamed it ndk,and have a arm-eabi-5.3 toolchain in the toolchanis folder. 
+make sure you have the Anroid NDK in your home folder, renamed it ndk,and have a arm-eabi-5.3 toolchain in the toolchanis folder. 
 
 run the kernel.sh and you're good to go! 
